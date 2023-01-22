@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Entities.Abstract;
+using Core.Entities;
 
 namespace Entities.Concrete
 {
@@ -14,6 +14,6 @@ namespace Entities.Concrete
         public int ColorId { get; set; }
         public int ModelYear { get; set; }
         public decimal DailyPrice { get; set; }
-        public string Description { get; set; }
+        public string CarName { get; set; }
     }
 }
