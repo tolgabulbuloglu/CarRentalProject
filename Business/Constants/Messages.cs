@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Business.Constants
+﻿namespace Business.Constants
 {
     public class Messages
     {
@@ -14,6 +8,8 @@ namespace Business.Constants
         public static string EntityUpdated = "The specified entity has been updated";
         public static string EntitiesListed = "All entities have been listed";
         public static string EntitiesListedByFilter = "Entities have been listed according to the specified criteria";
-
+        public static string ImageAdded = "The specified image has been added";
+        public static string ImageDeleted = "The specified image has been deleted";
+        public static string ImageUpdated = "The specified image has been updated";
     }
 }
